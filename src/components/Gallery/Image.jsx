@@ -7,7 +7,7 @@ import HTC from '../../assets/Certificates/HowToCode.jpg'
 import HTML from '../../assets/Certificates/HTML.jpg'
 
 import JS from '../../assets/Certificates/JavaScript.jpg'
-import SQL from '../../assets/Certificates/SQL.jpg' 
+
 import SQLBTD from '../../assets/Certificates/SQL-BTD.png'
 
 
