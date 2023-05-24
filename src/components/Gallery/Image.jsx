@@ -5,7 +5,7 @@
 import CFSP from '../../assets/Certificates/CFSP.jpg'
 import HTC from '../../assets/Certificates/HowToCode.jpg'
 import HTML from '../../assets/Certificates/HTML.jpg'
-import CSS from '../../assets/Certificates/CSS.jpg'
+
 import JS from '../../assets/Certificates/JavaScript.jpg'
 import SQL from '../../assets/Certificates/SQL.jpg' 
 import SQLBTD from '../../assets/Certificates/SQL-BTD.png'
@@ -13,6 +13,6 @@ import SQLBTD from '../../assets/Certificates/SQL-BTD.png'
 
 
 export const Images = [
-  CFSP, HTC, HTML, CSS, JS, SQL,SQLBTD 
+  CFSP, HTC, HTML, window.location.origin+"/fixPic/CSS.jpg", JS, SQL,SQLBTD 
 
 ];
