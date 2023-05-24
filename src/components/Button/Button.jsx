@@ -52,7 +52,7 @@ export function Button(props) {
     width: 100%;
 
    
-    background-color: #ff7b72;
+    background-color: #AC3520;
 
     @media only screen and (max-width: 768px) {
       display: none;

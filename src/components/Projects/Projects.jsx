@@ -1,18 +1,22 @@
 import React from "react";
 import { ProjectCard } from "../ProjectCard/ProjectCard";
-import Jammming from "../../assets/ProjectSS/Jammming/jammming-sukitb.surge 1 (1).png";
+import Exam from "../../assets/ProjectSS/FYH/ReactExamPic.png";
 import Colmar from "../../assets/ProjectSS/Colmar-academy/desktop.png";
+import FYH from "../../assets/ProjectSS/FYH/FYH.png";
 import styled from "styled-components";
-import Offit from "../../assets/ProjectSS/Offit/Offit.png"
+import Gtrainee from "../../assets/ProjectSS/Offit/Presentation1.jpg";
 
 export function Projects() {
   const projectsData = [
     {
-      img: Offit,
-      title: `Offit`,
+      img: Gtrainee,
+      title: `G-Tranee`,
       content: (
         <>
-          A web application, built with MERN Stack. That allows users add edit remove exercise activity by using form.
+          A CRUD web application, built with MERN Stack. That allows users add edit
+          remove exercise activity by using form.
+          <br />
+          Project Generation Thailand
         </>
       ),
       techlist: [
@@ -21,8 +25,8 @@ export function Projects() {
           href: `https://reactjs.org/`,
         },
         {
-          tech: `Express`,
-          href: `https://expressjs.com/`,
+          tech: `Bootstrap`,
+          href: `https://getbootstrap.com/`,
         },
         {
           tech: `MongoDB`,
@@ -31,39 +35,55 @@ export function Projects() {
         {
           tech: `Node.js`,
           href: `https://nodejs.org/en/`,
-        }
+        },
       ],
-      github: `https://github.com/sukitb/Offit_Frontend`,
-      demo: `https://offit.vercel.app/`,
+      github: `https://github.com/pramotepon/reborn-giwon`,
+      demo: `https://reborn-giwon.vercel.app/`,
     },
     {
-      img: Jammming,
-      title: `Jammming`,
+      img: Exam,
+      title: `React Mini Project Assessment`,
       content: (
         <>
-          A web application, built with React.js, that allows users to search
-          the Spotify library, create a custom playlist, and then save the
-          playlist to their Spotify accounts.
+          A web application, built with React.js,  to understand the basic functionality of react component and reactHook.
+          <br />
+          Assessment Generation Thailand
+          
         </>
       ),
       techlist: [
         {
           tech: `React`,
           href: `https://reactjs.org/`,
-        },
+        },       
         {
-          tech: `Spotify API`,
-          href: `https://developer.spotify.com/documentation/web-api/`,
-        },
-        {
-          tech: `Surge`,
-          href: `https://surge.sh/`,
+          tech: `Bootstrap`,
+          href: `https://getbootstrap.com/`,
         },
       ],
-      github: `https://github.com/sukitb/jammming`,
-      demo: `https://jammming-sukitb.surge.sh/`,
+      github: `https://github.com/ArlifTagaree/career-changer-react-assessment`,
+      demo: `https://career-changer-react-assessment-gamma.vercel.app/`,
     },
-    
+    {
+      img: FYH,
+      title: `FindYourHat`,
+      content: (
+        <>
+          JavaScript Project of Codecademy
+          <br />
+          Assessment Generation Thailand
+        </>
+      ),
+      techlist: [
+        {
+          tech: `JavaScript`,
+          href: `https://developer.mozilla.org/en-US/docs/Web/JavaScript`,
+        },
+      ],
+      github: `https://github.com/ArlifTagaree/FindYourHatJavaScriptExam`,
+      demo: `https://replit.com/@ArlifTagaree/jsdAssesment#index.js`,
+    },
+
     {
       img: Colmar,
       title: `COLMAR ACADEMY`,
@@ -71,6 +91,8 @@ export function Projects() {
         <>
           Responsive landing page for school. Using HTML, CSS, Bootstrap and
           GitHub pages.
+          <br />
+          Assessment Generation Thailand
         </>
       ),
       techlist: [
@@ -86,13 +108,9 @@ export function Projects() {
           tech: `Bootstrap`,
           href: `https://getbootstrap.com/`,
         },
-        {
-          tech: `GitHub Pages`,
-          href: `https://docs.github.com/en/pages`,
-        },
       ],
-      github: `https://github.com/sukitb/colmar-academy`,
-      demo: `https://sukitb.github.io/colmar-academy/`,
+      github: `https://github.com/ArlifTagaree/ColmarAcademy-Exam`,
+      demo: `https://colmar-academy-exam.vercel.app/`,
     },
   ];
 
@@ -117,12 +135,12 @@ export function Projects() {
     margin-bottom: 20px;
   `;
 
-
-
   return (
     <Projects>
       <Header>
-      <h2 className="red">PROJECTS</h2>
+        <h2 className="red">
+          <strong>PROJECTS</strong>
+        </h2>
       </Header>
       {projectsData.map(({ img, title, content, techlist, github, demo }) => (
         <ProjectCard

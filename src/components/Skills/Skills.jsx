@@ -7,11 +7,12 @@ import { SiReact } from "react-icons/si";
 import { SiBootstrap } from "react-icons/si";
 import { SiNodedotjs } from "react-icons/si";
 import { SiExpress } from "react-icons/si";
-import { SiMarkdown } from "react-icons/si";
 import { SiVisualstudiocode } from "react-icons/si";
 import { SiGit } from "react-icons/si";
 import { SiGithub } from "react-icons/si";
 import { SiFigma } from "react-icons/si";
+import { SiMongodb } from "react-icons/si";
+
 import { motion, useAnimation, useInView } from "framer-motion";
 
 export function Skills() {
@@ -75,15 +76,16 @@ export function Skills() {
   const skillsList = [
     <SiHtml5 fill="#E34F26" />,
     <SiCss3 fill="#1572B6" />,
+    <SiJavascript fill="#F7DF1E" />,
     <SiReact fill="#61DAFB" />,
-    <SiBootstrap fill="#7952B3" />,
     <SiNodedotjs fill="#339933" />,
     <SiExpress fill="#E6E7E4" />,
-    <SiMarkdown fill="#E6E7E4" />,
+    <SiMongodb fill="#589636" />,
+    <SiFigma fill="#F24E1E" />,
+    <SiBootstrap fill="#7952B3" />,
     <SiVisualstudiocode fill="#007ACC" />,
     <SiGit fill="#F05032" />,
-    <SiGithub fill="#E6E7E4" />,
-    <SiFigma fill="#F24E1E" />,
+    <SiGithub fill="#E6E7E4" />, 
   ];
 
   return (

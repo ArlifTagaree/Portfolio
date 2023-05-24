@@ -7,14 +7,14 @@ import styled from "styled-components";
 import { Button } from "../Button/Button";
 import { motion } from "framer-motion";
 import { IoDocumentTextSharp } from "react-icons/io5";
-import profile from "../../assets/Profile/profile.jpg";
+import profile from "../../assets/Profile/my profile.jpg";
 
 export function Profile() {
   const ProfilePic = styled.img`
     width: 400px;
-    margin: 20px;
+    margin: 20px ;
     
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 768px)  {
       
     max-width: 250px;
     margin: 10px auto;
@@ -54,7 +54,7 @@ export function Profile() {
   return (
     <div className="Profile">
       <div className="header">
-        <h2 class="red">ABOUT</h2>
+        <h2 class="red"><strong>ABOUT ME</strong></h2>
       </div>
 
       <motion.div
@@ -69,8 +69,8 @@ export function Profile() {
         <Title>
         <ProfilePic src={profile}></ProfilePic>
         <div>
-        <h1>Sukit Bunsiri</h1>
-        <h2>I'm Web Developer</h2>
+        <h1>Arlif Tagaree</h1>
+        <h2>Junior Software Developer</h2>
         </div>
         </Title>
       </motion.div>
@@ -86,29 +86,14 @@ export function Profile() {
         }}
       >
         <div className="content">
-          <p>
-            Before I started coding I was a teaching fellow for 2 years at{" "}
-            <Anchor
-              text="Teach For Thailand"
-              href="https://www.teachforthailand.org/"
-            />{" "}
-            where I realized my passion is solving problems for people. <br />
-            <br />
-            Then I started my coding journey at{" "}
-            <Anchor text="freeCodeCamp" href="https://www.freecodecamp.org/" />.
-            My passion drives me to join the Junior Software Developer
-            (Fullstack) Bootcamp by{" "}
+          <p>I am a self-motivated tech enthusiast graduated from {" "}
             <Anchor
               text="Generation Thailand"
               href="https://thailand.generation.org/"
-            />
-            , where I learned a lot of technical skills and how to work with
-            others by using agile. <br />
-            <br />
-            Nowadays I’m still fully passionate about developing my technical
-            skills and soft skills every day. I wish I can use creativity to
-            deliver something that is valuable for your organization in the
-            future.
+            /> Junior Software Developer (Fullstack) Bootcamp seeking for software developer role.<br />
+            <br /> Previously, I have 3 years of work experience in engineer construction industry with high mainly responsible for Project progress (S-Curve) planning and report ,coordinate with main contractor about contracts and payment including site issues.<br />
+
+            <br /> Equipped with soft skills and growth mindset hungry to learn new IT knowledge, I am very eager to apply my technical coding skills in <strong style={{color:"white"}}>MERN Stack</strong> and my previous work experience in team collaboration, orientation to detail and ability to work under pressure to application and website development.
           </p>
         </div>
       </motion.div>
@@ -129,7 +114,7 @@ export function Profile() {
           icon={<IoDocumentTextSharp />}
           blank={true}
           text="RESUME"
-          href="https://drive.google.com/file/d/1wJ0iYHpdUYTV_0vMx3FLyRk8ZCWeoq6T/view?usp=sharing"
+          href="https://drive.google.com/file/d/1V7Hw9TexeNDeayGLnb0uftj1eEU_J5Ma/view?usp=share_link"
         />
         
       </motion.div>

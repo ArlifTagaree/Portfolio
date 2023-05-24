@@ -1,9 +1,9 @@
 import React from "react";
 import "./Experiences.sass";
 import styled from "styled-components";
-import TFT from "../../assets/Jobs/Teach for Thailand.svg";
-import Glico from "../../assets/Jobs/Glico_logo.svg";
-import TU from "../../assets/Jobs/logo-new-white.png";
+import TTR from "../../assets/Jobs/logo_ttr.jpg";
+import SCAN from "../../assets/Jobs/logo_scaninter1.png";
+import KMUTNB from "../../assets/Jobs/logo_kmutnb.png";
 import Gen from "../../assets/Jobs/Generation.svg";
 import { Accordion } from "../Accordion/Accordion";
 import { motion } from "framer-motion";
@@ -12,26 +12,33 @@ import { Gallery } from "../Gallery/Gallery";
 export function Experiences() {
   const jobData = [
     {
-      img: TFT,
-      title: `Teaching Fellow`,
-      place: `Teach For Thailand`,
-      time: `2019 - 2021`,
-      href: `https://www.teachforthailand.org/%e0%b9%82%e0%b8%84%e0%b8%a3%e0%b8%87%e0%b8%81%e0%b8%b2%e0%b8%a3%e0%b8%84%e0%b8%a3%e0%b8%b9%e0%b8%9c%e0%b8%b9%e0%b9%89%e0%b8%99%e0%b8%b3/`,
+      img: TTR,
+      title: `Office Engineer & Quantity Surveyor`,
+      place: `Trans Thai Railway`,
+      time: `Apr 2020 - May 2022`,
+      href: `https://www.transthairailway.com/`,
       content: [
-        `Planned and designed learning Journey applying data-driven decision-making.`,
-        `Teach 100+ of Students. Approximately 54% of low proficiency students have improved their performance.`,
-        `Collaborate with stakeholders such as students, teachers, school directors and parents. In order to create a student development collective vision.`,
+        `Maintain budget control records`,
+        `Provide weekly/monthly progress reports.`,
+        `Prepare contracts, budgets, and invoices.`,
+        `Update database and project planning work procedure including S-Curve.`,
+        `Coordinate with main contractors on contracts, payments, and site issues.`,
+        `Liaise with the client and other construction professionals, such as site managers, project managers and site engineers.`,
+        
       ],
     },
     {
-      img: Glico,
-      title: `General Relation Officer`,
-      place: `ThaiGlico`,
-      time: `2017`,
-      href: `https://www.glico.com/th/en/`,
+      img: SCAN,
+      title: `Estimate Engineer`,
+      place: `Scan-Inter`,
+      time: `February 2019 - Mar 2020`,
+      href: `https://www.scan-inter.com/`,
       content: [
-        `Managing relationship between employer and labor union.`,
-        `Review factory legal contract.`,
+        `Estimation of spare parts price.`,
+        `Inspect the works scope to keep compliance with TOR.`,
+        `Analyze and create relevant databases for reference.`,
+        `Inspect BOM, BOQ, and ensure the completion of work according to customers'scope of work.
+        `
       ],
     },
   ];
@@ -41,24 +48,24 @@ export function Experiences() {
       img: Gen,
       title: `Fullstack Web Developer Learner`,
       place: `Generation Thailand`,
-      time: `May - August 2022`,
-      href: `https://thailand.generation.org/programs/tmca-software-developer-3/`,
+      time: `February - May 2023`,
+      href: `https://thailand.generation.org/programs/jsd/`,
       content: [
         `Junior Software Developer (Fullstack Web Developer), 12 Weeks (full-time)`,
         `Technical Skills: HTML, CSS, Javascript, React, Node JS, Express, Relational databases, MongoDB
         and git version control.`,
-        `Methodology: Object-oriented programming (OOP), Design Thinking, Agile, Scrum process.`,
+        `Behavior & Mindsets: Agile, Scrum process,Growth  Mindset, Problem solved, Communication, Team collaboration ,Time management, Proactiveness, Future-orientation`
       ],
     },
     {
-      img: TU,
-      title: `Bachelor of Laws`,
-      place: `Thammasat University`,
-      time: `2013 - 2017`,
-      href: `https://tu.ac.th/`,
+      img: KMUTNB,
+      title: `Bachelor of Engineering`,
+      place: `KMUTNB`,
+      time: `2014 - 2018`,
+      href: `https://www.kmutnb.ac.th/`,
       content: [
-        `Chairperson of the Student Discipline Committee @Student Council of Thammasat University (2015 - 2016)`,
-        `Executive Editor @ D-Ka Magazine (Thammasat Law School magazine) (2015 – 2017)`,
+        `Major Materials Handling Engineering`,
+        `Associate Mechanic Engineer License No. ภก.46246`,
       ],
     },
   ];
@@ -112,7 +119,7 @@ export function Experiences() {
   return (
     <Experiences>
       <Header>
-        <h2 className="red">EXPERIENCE</h2>
+        <h2 className="red"><strong>EXPERIENCE</strong></h2>
       </Header>
       <motion.div
         variants={container}

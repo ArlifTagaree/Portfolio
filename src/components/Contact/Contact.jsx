@@ -3,7 +3,7 @@ import styled from "styled-components";
 import { AiOutlineMail } from "react-icons/ai";
 import { VscGithub } from "react-icons/vsc";
 import { AiFillLinkedin } from "react-icons/ai";
-import { SiMedium } from "react-icons/si";
+
 
 import { IoDocumentTextSharp } from "react-icons/io5";
 import { Button } from "../Button/Button";
@@ -15,28 +15,24 @@ export function Contact() {
     {
       text: `Resume`,
       icon: <IoDocumentTextSharp />,
-      link: `https://drive.google.com/file/d/1wJ0iYHpdUYTV_0vMx3FLyRk8ZCWeoq6T/view?usp=sharing`,
+      link: `https://drive.google.com/file/d/1V7Hw9TexeNDeayGLnb0uftj1eEU_J5Ma/view?usp=share_link`,
     },
     {
       text: `Email`,
       icon: <AiOutlineMail />,
-      link: `mailto: sukit.bunsiri@gmail.com`,
+      link: `mailto: liffism9@gmail.com`,
     },
     {
       text: `GitHub`,
       icon: <VscGithub />,
-      link: `https://github.com/sukitb`,
+      link: `https://github.com/ArlifTagaree`,
     },
     {
       text: `LinkedIn`,
       icon: <AiFillLinkedin />,
-      link: `https://www.linkedin.com/in/sukit-bunsiri`,
+      link: `https://www.linkedin.com/in/arlif-tagaree/`,
     },
-    {
-      text: `Medium`,
-      icon: <SiMedium />,
-      link: `https://sukitbunsiri.medium.com/`,
-    },
+    
   ];
 
   const Contact = styled.div`

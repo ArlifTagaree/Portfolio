@@ -11,8 +11,10 @@ export function ProjectCard(props) {
     display: flex;
     list-style: none;
     padding: 0px;
+    
     & li {
       padding: 0px 10px;
+      
     }
 
     @media only screen and (max-width: 768px) {

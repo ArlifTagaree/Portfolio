@@ -23,7 +23,7 @@ function Navbar() {
 
   const navbarList = [
     {
-      text: `ABOUT`,
+      text: `ABOUT ME`,
       href: `#profile`,
     },
     {
