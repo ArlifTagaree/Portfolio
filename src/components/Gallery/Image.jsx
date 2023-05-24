@@ -13,6 +13,6 @@ import SQLBTD from '../../assets/Certificates/SQL-BTD.png'
 
 
 export const Images = [
-  CFSP, HTC, HTML, window.location.origin+"/fixPic/CSS.jpg", JS, SQL,SQLBTD 
+  CFSP, HTC, HTML, window.location.origin+"/fixPic/CSS.jpg", JS, window.location.origin+"/fixPic/SQL.jpg",SQLBTD 
 
 ];
