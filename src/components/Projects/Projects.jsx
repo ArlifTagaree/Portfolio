@@ -1,6 +1,6 @@
 import React from "react";
 import { ProjectCard } from "../ProjectCard/ProjectCard";
-import Exam from "../../assets/ProjectSS/FYH/ReactExamPic.png";
+import AssessmentReact from "../../assets/ProjectSS/FYH/ReactExamPic.png";
 import Colmar from "../../assets/ProjectSS/Colmar-academy/desktop.png";
 import FYH from "../../assets/ProjectSS/FYH/FYH.png";
 import styled from "styled-components";
@@ -41,7 +41,7 @@ export function Projects() {
       demo: `https://reborn-giwon.vercel.app/`,
     },
     {
-      img: Exam,
+      img: AssessmentReact,
       title: `React Mini Project Assessment`,
       content: (
         <>
